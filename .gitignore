@@ -172,3 +172,8 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Big data - not for commit:
+data/processed/train.csv
+data/processed/test.csv
+outputs/models/random_forest_model_n_30.pkl
