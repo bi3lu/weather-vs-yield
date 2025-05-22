@@ -30,8 +30,6 @@ Problem ten jest istotny ze względu na:
 ---
 
 ## Struktura projektu
-weather-vs-yield/
-
     data/
         raw/
         processed/
