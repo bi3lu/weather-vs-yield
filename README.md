@@ -31,20 +31,24 @@ Problem ten jest istotny ze względu na:
 
 ## Struktura projektu
 weather-vs-yield/
-├── data/
-│ ├── raw/ # Dane surowe (CSV)
-│ ├── processed/ # Dane po przetwarzaniu (train/test)
-├── notebooks/
-│ ├── 01_exploration.ipynb # Eksploracja danych
-│ ├── 02_preprocessing.ipynb # Przygotowanie danych
-│ ├── 03_modeling.ipynb # Trening modelu
-│ └── 04_evaluation.ipynb # Ewaluacja i wizualizacje
-├── outputs/
-│ ├── models/ # Zapisany model (.pkl)
-│ └── figures/ # Wygenerowane wykresy
-├── README.md
-└── requirements.txt
 
+    data/
+        raw/
+        processed/
+
+    notebooks/
+        01_exploration.ipynb
+        02_preprocessing.ipynb
+        03_modeling.ipynb
+        04_evaluation.ipynb
+
+    outputs/
+        models/
+        figures/
+
+    README.md
+    requirements.txt
+    
 ---
 
 ## Model i uczenie
@@ -66,7 +70,7 @@ Model osiągnął następujące wyniki na zbiorze testowym:
 - **RMSE (pierwiastek z błędu średniokwadratowego):** 0.52
 - **R2 (współczynnik determinacji):** 0.91
 
-> Wysoka wartość R² oznacza, że model bardzo dobrze wyjaśnia zmienność plonów w danych testowych.
+> Wysoka wartość R2 oznacza, że model bardzo dobrze wyjaśnia zmienność plonów w danych testowych.
 
 ---
 
