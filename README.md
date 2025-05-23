@@ -44,6 +44,9 @@ Problem ten jest istotny ze względu na:
         models/
         figures/
 
+    src/
+        main.py
+
     README.md
     requirements.txt
     
