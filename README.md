@@ -34,6 +34,9 @@ Problem ten jest istotny ze względu na:
         raw/
         processed/
 
+    final__report/
+        report.pdf
+
     notebooks/
         01_exploration.ipynb
         02_preprocessing.ipynb
@@ -43,6 +46,11 @@ Problem ten jest istotny ze względu na:
     outputs/
         models/
         figures/
+            actual_vs_predicted.png
+            correlation_heatmap.png
+            error_distribution.png
+            feature_importance.png
+            yield_distribution.png
 
     src/
         main.py
