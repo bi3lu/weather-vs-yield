@@ -31,8 +31,9 @@ Problem ten jest istotny ze względu na:
 
 ## Struktura projektu
     data/
-        raw/
         processed/
+        raw/
+            crop_yield.csv
 
     final__report/
         report.pdf
