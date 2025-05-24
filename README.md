@@ -35,8 +35,19 @@ Problem ten jest istotny ze względu na:
         raw/
             crop_yield.csv
 
+        README.md
+
     final__report/
         report.pdf
+
+    model__testing/
+        LightGBM/
+            lightgbm_evaluation.ipynb
+            lightgbm_modeling.ipynb
+
+        XGBoost/
+            xgboost_evaluation.ipynb
+            xgboost_modeling.ipynb
 
     notebooks/
         01_exploration.ipynb
@@ -45,13 +56,24 @@ Problem ten jest istotny ze względu na:
         04_evaluation.ipynb
 
     outputs/
-        models/
         figures/
+            LightGBM/
+                lightgbm_actual_vs_predicted.png
+                lightgbm_error_distribution.png
+                lightgbm_feature_importance.png
+
+            XGBoost/
+                xgboost_actual_vs_predicted.png
+                xgboost_error_distribution.png
+                xgboost_feature_importance.png
+
             actual_vs_predicted.png
             correlation_heatmap.png
             error_distribution.png
             feature_importance.png
             yield_distribution.png
+        
+        models/
 
     src/
         main.py
@@ -63,7 +85,7 @@ Problem ten jest istotny ze względu na:
 
 ## Model i uczenie
 
-- **Algorytm:** `RandomForestRegressor`
+- **Główny algorytm:** `RandomForestRegressor`
 - **Parametry:** `n_estimators=30`, `random_state=42`, `n_jobs=-1`
 - **Podział danych:** 80% trening / 20% test
 - **Biblioteki:** `scikit-learn`, `pandas`, `seaborn`, `matplotlib`
@@ -91,3 +113,9 @@ Wszystkie wykresy zostały zapisane w folderze `outputs/figures/`:
 - `actual_vs_predicted.png` – rzeczywiste vs przewidywane plony
 - `error_distribution.png` – rozkład błędów predykcji
 - `feature_importance.png` – najważniejsze cechy wpływające na wynik
+
+---
+
+## Porównanie
+
+Model oparty na RandomForestRegresor porównano z modelami opartymi o Light GBM oraz XGBoost. Wyniki przedstawiono w raporcie końcowym.
