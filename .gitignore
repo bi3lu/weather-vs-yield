@@ -177,3 +177,5 @@ cython_debug/
 data/processed/train.csv
 data/processed/test.csv
 outputs/models/random_forest_model_n_30.pkl
+outputs/models/random_forest_model_n_50.pkl
+outputs/models/lightgbm_model_n_100.pkl
