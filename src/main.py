@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Plik główny do przetwarzania danych i trenowania modelu
+Plik główny do przetwarzania danych i trenowania modelu Random Forest (główny algorytm użyty w projekcie).
 """
 
 import pandas as pd
