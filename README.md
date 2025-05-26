@@ -38,7 +38,7 @@ Problem ten jest istotny ze względu na:
         README.md
 
     final__report/
-        report.pdf
+        final_report.pdf
 
     model__testing/
         LightGBM/
